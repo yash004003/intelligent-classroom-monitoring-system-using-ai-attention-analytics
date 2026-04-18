@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+<rect width="100%" height="100%" fill="white"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="black"/>
+  </marker>
+</defs>
+
+<text x="900.0" y="48" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="black">Class Diagram</text>
+<text x="900.0" y="78" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">Logical module classes derived from the MATLAB project structure</text>
+<rect x="70" y="130" width="280" height="170" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="210.0" y="156" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">MainGUI</text>
+<text x="210.0" y="180" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ main()</text>
+<text x="210.0" y="202" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ loadImage()</text>
+<text x="210.0" y="224" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ captureFromCamera()</text>
+<text x="210.0" y="246" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ startTraining()</text>
+<text x="210.0" y="268" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ matchPerson()</text>
+<rect x="450" y="120" width="310" height="170" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="605.0" y="146" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">FeatureDatabaseBuilder</text>
+<text x="605.0" y="170" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ builddatabase()</text>
+<text x="605.0" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ calcfeatures(img)</text>
+<rect x="860" y="120" width="280" height="150" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1000.0" y="146" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">SimilarityMatcher</text>
+<text x="1000.0" y="170" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ findsimilar(img)</text>
+<text x="1000.0" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ compareFeatureVectors()</text>
+<rect x="1240" y="95" width="450" height="210" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1465.0" y="121" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">ColorDescriptorEngine</text>
+<text x="1465.0" y="145" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ rgb2hmmd(img)</text>
+<text x="1465.0" y="167" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ rgb2quanthmmd(img,bins)</text>
+<text x="1465.0" y="189" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ colordescriptor(hmmd,map)</text>
+<rect x="1240" y="355" width="450" height="190" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1465.0" y="381" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">EdgeDescriptorEngine</text>
+<text x="1465.0" y="405" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ ehd(img,threshold)</text>
+<text x="1465.0" y="427" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ ehddist(edge1,edge2,a,b,c)</text>
+<rect x="70" y="410" width="280" height="170" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="210.0" y="436" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">AttendanceStore</text>
+<text x="210.0" y="460" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ readInfo()</text>
+<text x="210.0" y="482" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ saveInfo()</text>
+<text x="210.0" y="504" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ appendEntry()</text>
+<rect x="450" y="410" width="310" height="170" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="605.0" y="436" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">ELearningGUI</text>
+<text x="605.0" y="460" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ E_Learning()</text>
+<text x="605.0" y="482" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ playTopicVideo()</text>
+<text x="605.0" y="504" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ readKeyPdf()</text>
+<text x="605.0" y="526" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ runEmotionCheck()</text>
+<rect x="860" y="400" width="280" height="190" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1000.0" y="426" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">EmotionEngine</text>
+<text x="1000.0" y="450" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ Emotion_Identification()</text>
+<text x="1000.0" y="472" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ captureFace()</text>
+<text x="1000.0" y="494" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ trainHOGModel()</text>
+<text x="1000.0" y="516" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ predictEmotion()</text>
+<rect x="450" y="760" width="310" height="150" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="605.0" y="786" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">AttentionMonitor</text>
+<text x="605.0" y="810" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ MAIN_CODE()</text>
+<text x="605.0" y="832" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ runMonitoringLoop()</text>
+<rect x="860" y="720" width="280" height="130" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1000.0" y="746" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">FaceTrackingService</text>
+<text x="1000.0" y="770" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ detectAndTrackFaces(frame)</text>
+<rect x="1240" y="680" width="450" height="140" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1465.0" y="706" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">AttentionScoringService</text>
+<text x="1465.0" y="730" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ calculateAttentionScore(faceROI,faceBox)</text>
+<rect x="860" y="900" width="280" height="170" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1000.0" y="926" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">DashboardService</text>
+<text x="1000.0" y="950" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ updateDashboard(...)</text>
+<text x="1000.0" y="972" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ generateHeatmap(...)</text>
+<text x="1000.0" y="994" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ annotateFace(...)</text>
+<rect x="1240" y="880" width="450" height="160" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1465.0" y="906" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">StudentDataService</text>
+<text x="1465.0" y="930" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ updateStudentData(...)</text>
+<text x="1465.0" y="952" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">+ storeData(...)</text>
+<polyline points="350,205 450,205" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="760,205 860,205" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1140,205 1240,205" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="350,495 450,495" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="760,495 860,495" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="605,580 605,760" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="760,835 860,785" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1140,785 1240,750" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1000,850 1000,900" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1140,985 1240,960" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="605,300 605,410" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1000,270 1000,400" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>

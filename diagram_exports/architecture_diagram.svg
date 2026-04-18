@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+<rect width="100%" height="100%" fill="white"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="black"/>
+  </marker>
+</defs>
+
+<text x="900.0" y="48" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="black">Architecture Diagram</text>
+<text x="900.0" y="78" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">Face Entry project modules, data stores, external devices, and outputs</text>
+<rect x="60" y="150" width="180" height="90" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="150.0" y="176" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">User</text>
+<rect x="320" y="120" width="300" height="150" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="470.0" y="146" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Attendance Recognition</text>
+<text x="470.0" y="170" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">main.m</text>
+<text x="470.0" y="192" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">main.fig</text>
+<rect x="760" y="100" width="340" height="220" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="930.0" y="126" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Feature Extraction Engine</text>
+<text x="930.0" y="150" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">builddatabase.m</text>
+<text x="930.0" y="172" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">findsimilar.m</text>
+<text x="930.0" y="194" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">calcfeatures.m</text>
+<text x="930.0" y="216" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">colordescriptor.m</text>
+<text x="930.0" y="238" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">ehd.m / ehddist.m</text>
+<text x="930.0" y="260" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">rgb2hmmd.m / rgb2quanthmmd.m</text>
+<rect x="1250" y="90" width="460" height="270" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1480.0" y="116" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Project Data Stores</text>
+<text x="1480.0" y="140" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">database/*.jpg</text>
+<text x="1480.0" y="162" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">features.mat</text>
+<text x="1480.0" y="184" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">info.mat</text>
+<text x="1480.0" y="206" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Entry_sheet.txt</text>
+<text x="1480.0" y="228" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">classroom_report_*.mat</text>
+<text x="1480.0" y="250" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">classroom_data_*.csv</text>
+<rect x="320" y="400" width="300" height="150" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="470.0" y="426" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">E-Learning and Emotion</text>
+<text x="470.0" y="450" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">E_Learning.m</text>
+<text x="470.0" y="472" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">E_Learning.fig</text>
+<text x="470.0" y="494" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Emotion_Identification.m</text>
+<rect x="760" y="410" width="340" height="220" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="930.0" y="436" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Attention Monitoring</text>
+<text x="930.0" y="460" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">MAIN_CODE.m</text>
+<text x="930.0" y="482" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">detectAndTrackFaces.m</text>
+<text x="930.0" y="504" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">calculateAttentionScore.m</text>
+<text x="930.0" y="526" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">generateHeatmap.m</text>
+<text x="930.0" y="548" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">annotateFace.m</text>
+<text x="930.0" y="570" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">updateDashboard.m</text>
+<text x="930.0" y="592" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">updateStudentData.m</text>
+<text x="930.0" y="614" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">storeData.m</text>
+<rect x="1250" y="430" width="460" height="150" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1480.0" y="456" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Media Assets</text>
+<text x="1480.0" y="480" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">acidrain/*</text>
+<text x="1480.0" y="502" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">blogging/*</text>
+<text x="1480.0" y="524" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">key.pdf</text>
+<text x="1480.0" y="546" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">help.pdf</text>
+<rect x="520" y="760" width="380" height="150" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="710.0" y="786" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Support Utilities</text>
+<text x="710.0" y="810" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">tts.m</text>
+<text x="710.0" y="832" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">pdfRead.m</text>
+<text x="710.0" y="854" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Mongo driver files</text>
+<rect x="60" y="450" width="180" height="120" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="150.0" y="476" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Input Devices</text>
+<text x="150.0" y="500" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Webcam</text>
+<text x="150.0" y="522" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Image Files</text>
+<polyline points="240,195 320,195" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="240,510 320,510 320,475" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="620,195 760,195" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1100,195 1250,195" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="620,475 760,475" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1100,520 1250,520" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="470,270 470,400" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="930,320 930,410" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="710,835 620,835 620,550" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="900,760 930,760 930,630" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="900,760 1480,760 1480,580" fill="none" stroke="black" stroke-width="2" stroke-dasharray="8,6" marker-end="url(#arrow)"/>
+</svg>

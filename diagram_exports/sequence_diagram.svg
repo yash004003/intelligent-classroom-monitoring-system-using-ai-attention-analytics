@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+<rect width="100%" height="100%" fill="white"/>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="black"/>
+  </marker>
+</defs>
+
+<text x="900.0" y="48" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="black">Sequence Diagram</text>
+<text x="900.0" y="78" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="black">Attendance recognition flow using the actual project modules</text>
+<rect x="40" y="110" width="160" height="60" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="120.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">User</text>
+<line x1="120" y1="170" x2="120" y2="1090" stroke="black" stroke-width="1" stroke-dasharray="8,6"/>
+<rect x="300" y="110" width="160" height="60" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="380.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">main.m</text>
+<line x1="380" y1="170" x2="380" y2="1090" stroke="black" stroke-width="1" stroke-dasharray="8,6"/>
+<rect x="570" y="110" width="160" height="60" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="650.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Webcam / Image</text>
+<line x1="650" y1="170" x2="650" y2="1090" stroke="black" stroke-width="1" stroke-dasharray="8,6"/>
+<rect x="840" y="110" width="160" height="60" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="920.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Cascade Detector</text>
+<line x1="920" y1="170" x2="920" y2="1090" stroke="black" stroke-width="1" stroke-dasharray="8,6"/>
+<rect x="1110" y="110" width="160" height="60" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1190.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">findsimilar.m</text>
+<line x1="1190" y1="170" x2="1190" y2="1090" stroke="black" stroke-width="1" stroke-dasharray="8,6"/>
+<rect x="1380" y="110" width="160" height="60" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1460.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">features.mat</text>
+<line x1="1460" y1="170" x2="1460" y2="1090" stroke="black" stroke-width="1" stroke-dasharray="8,6"/>
+<rect x="1610" y="110" width="160" height="60" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="1690.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">info.mat / Entry</text>
+<line x1="1690" y1="170" x2="1690" y2="1090" stroke="black" stroke-width="1" stroke-dasharray="8,6"/>
+<line x1="120" y1="220" x2="380" y2="220" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="250.0" y="212" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Start recognition</text>
+<line x1="380" y1="290" x2="650" y2="290" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="515.0" y="282" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Capture frame / load image</text>
+<line x1="650" y1="360" x2="380" y2="360" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="515.0" y="352" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Return face image</text>
+<line x1="380" y1="430" x2="920" y2="430" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="650.0" y="422" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Detect single face</text>
+<line x1="920" y1="500" x2="380" y2="500" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="650.0" y="492" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Bounding box</text>
+<polyline points="380,570 500,570 500,620 380,620" fill="none" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="440" y="562" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Crop and resize 300x300</text>
+<line x1="380" y1="640" x2="1190" y2="640" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="785.0" y="632" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">findsimilar(faceImage)</text>
+<line x1="1190" y1="710" x2="1460" y2="710" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1325.0" y="702" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Load trained features</text>
+<line x1="1460" y1="780" x2="1190" y2="780" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1325.0" y="772" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Feature vectors</text>
+<line x1="1190" y1="850" x2="380" y2="850" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="785.0" y="842" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Best image file</text>
+<line x1="380" y1="920" x2="1690" y2="920" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1035.0" y="912" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Load name map / append entry</text>
+<line x1="1690" y1="990" x2="380" y2="990" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1035.0" y="982" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Name and save result</text>
+<line x1="380" y1="1060" x2="120" y2="1060" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="250.0" y="1052" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Success or invalid warning</text>
+<rect x="260" y="1010" width="420" height="110" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="470.0" y="1036" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Accepted Match</text>
+<text x="470.0" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Append attendance row</text>
+<text x="470.0" y="1082" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Optionally run MAIN_CODE.m</text>
+<rect x="760" y="1010" width="360" height="110" rx="12" ry="12" stroke="black" stroke-width="2" fill="white"/>
+<text x="940.0" y="1036" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="black">Rejected Match</text>
+<text x="940.0" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="black">Show invalid person warning</text>
+</svg>
